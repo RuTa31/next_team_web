@@ -7,6 +7,7 @@ export default function Home() {
     <Box>
       <Appbar />
       <Image_com />
+      sdfasdfasdf
     </Box>
   )
 }
