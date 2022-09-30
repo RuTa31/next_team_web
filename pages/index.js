@@ -1,8 +1,8 @@
-import Box from '@mui/material/Box';
-import Appbar from './components/Appbar';
-import Image_com from './components/image_com';
+import Box from "@mui/material/Box";
+import Appbar from "./components/Appbar";
+import Image_com from "./components/image_com";
 // next module
-import Link from 'next/link';
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -10,8 +10,8 @@ export default function Home() {
       <Appbar />
       {/* <Image_com /> */}
       <Link href="/post/first_post" color="secondary">
-          new page
-        </Link>
+        text run
+      </Link>
     </Box>
-  )
+  );
 }
