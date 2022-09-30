@@ -1,6 +1,4 @@
 const First_Post = () => {
-    return (
-        <>post</>
-    );
-}
+  return <>post</>;
+};
 export default First_Post;
